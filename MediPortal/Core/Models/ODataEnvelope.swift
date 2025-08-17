@@ -5,8 +5,8 @@ struct ODataSingle<T: Codable>: Codable {
 }
 
 struct ODataCollection<T: Codable>: Codable {
-    struct Results<T: Codable>: Codable {
-        let results: [T]
+    struct Results<U: Codable>: Codable {
+        let results: [U]
     }
     
     let d: Results<T>

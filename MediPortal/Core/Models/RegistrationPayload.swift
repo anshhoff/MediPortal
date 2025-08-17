@@ -10,4 +10,6 @@ struct RegistrationPayload: Codable {
     let Gender: String
     let Age: String
     let AgeUnit: String
+    let practice_frm_month: String
+    let practice_frm_year: String
 }

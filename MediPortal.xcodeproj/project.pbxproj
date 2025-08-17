@@ -10,9 +10,22 @@
 		A60508C42E503C150002FCE9 /* MediPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediPortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A60509832E504CAD0002FCE9 /* Exceptions for "MediPortal" folder in "MediPortal" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A60508C32E503C150002FCE9 /* MediPortal */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A60508C62E503C150002FCE9 /* MediPortal */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A60509832E504CAD0002FCE9 /* Exceptions for "MediPortal" folder in "MediPortal" target */,
+			);
 			path = MediPortal;
 			sourceTree = "<group>";
 		};
@@ -256,6 +269,10 @@
 				DEVELOPMENT_TEAM = P4822XB343;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MediPortal/Info.plist;
+				INFOPLIST_KEY_NSAppTransportSecurity_NSExceptionDomains_199_192_26_248_NSExceptionAllowsInsecureHTTPLoads = YES;
+				INFOPLIST_KEY_NSAppTransportSecurity_NSExceptionDomains_199_192_26_248_NSExceptionMinimumTLSVersion = TLSv1.0;
+				INFOPLIST_KEY_NSAppTransportSecurity_NSExceptionDomains_199_192_26_248_NSIncludesSubdomains = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -288,6 +305,10 @@
 				DEVELOPMENT_TEAM = P4822XB343;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MediPortal/Info.plist;
+				INFOPLIST_KEY_NSAppTransportSecurity_NSExceptionDomains_199_192_26_248_NSExceptionAllowsInsecureHTTPLoads = YES;
+				INFOPLIST_KEY_NSAppTransportSecurity_NSExceptionDomains_199_192_26_248_NSExceptionMinimumTLSVersion = TLSv1.0;
+				INFOPLIST_KEY_NSAppTransportSecurity_NSExceptionDomains_199_192_26_248_NSIncludesSubdomains = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
